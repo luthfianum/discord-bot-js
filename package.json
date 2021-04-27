@@ -1,0 +1,39 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^5.1.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luthfianum/discord-bot-js.git"
+  },
+  "author": [
+    "Luthfi Anum Pratama",
+    "Hauzan Naufal Hakim",
+    "Naufal Luthfi Malik",
+    "Eko Januardi Panca"
+  ],
+  "keywords": [
+    "node",
+    "heroku",
+    "discord-js",
+    "discord bot"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luthfianum/discord-bot-js/issues"
+  },
+  "homepage": "https://github.com/luthfianum/discord-bot-js#readme"
+}
