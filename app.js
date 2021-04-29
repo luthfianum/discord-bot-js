@@ -12,7 +12,7 @@ client.on('ready', () => {
 
 client.on('message', (msg) => {
     let command = msg.content.split(' ');
-    if (command[0] === '#hello') msg.channel.reply('hai');
+    if (command[0] === '#hello') msg.reply('hai');
     else if (command[0] === '#link'){
         for (let i = 1; i < (command.length); i++) {
             msg.channel.send(`[${command[i]}](https://wa.me/62${command[i].slice(1)})`);
