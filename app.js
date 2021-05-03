@@ -20,12 +20,12 @@ client.on('message', (msg) => {
             .setAuthor('HELN-BOT')
         for (let i = 1; i < (command.length); i++) {
             linkEmbed.addFields([
-                {name: `${command[i]}`, value:`[Link](https://wa.me/${command[i]})`}
+                {name: `${command[i]}`, value:`[Link](https://wa.me/62${command[i].slice(1)})`}
             ])
         }
         msg.channel.send(linkEmbed);
     }else if(command[0] === '#translate'){
-        let tgitargetLang = command[1];
+        let targetLang = command[1];
         let text = command.slice(2).join(' ');
         translate(text, {to: targetLang}).then((res)=>{
             const translateEmbed = new Discord.MessageEmbed()
