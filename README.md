@@ -11,3 +11,5 @@ A discord bot made to fulfill the task of the automata course :clown_face:
 - [x] Hello World
 - [x] Whatsapp link
 - [x] Translator
+- [x] Paper searcher
+- [x] Help
